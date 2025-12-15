@@ -1,0 +1,20 @@
+{
+  "name": "html-trivia-game",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "HTML Trivia CLI Game",
+  "main": "bin/index.js",
+  "bin": {
+    "html-trivia": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "node bin/index.js"
+  },
+  "keywords": ["html", "trivia", "cli", "game"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^7.5.1",
+    "chalk": "^4.1.2"
+  }
+}
